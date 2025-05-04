@@ -1,4 +1,8 @@
+<div align="center">
+
 ![banner](img/github-header-image.png)
+
+</div>
 
 ## Nice to meet you!
 ##### Im junior Web Development
@@ -18,20 +22,38 @@ Here are some ideas to get you started:
 -->
 <hr>
 
-🌱 I’m currently learning :
+##### 🌱 I’m currently learning :
 
  ![image-skill](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,github)
 
 <br>
 
-📫 How to reach me :
+##### 📫 How to reach me :
 
 ![https://github.com/Wira-Kusuma](https://go-skill-icons.vercel.app/api/icons?i=github) ![https://www.linkedin.com/in/wira-kusuma-193303354/](https://go-skill-icons.vercel.app/api/icons?i=linkedin) ![https://www.instagram.com/kusumaphandawa/](https://go-skill-icons.vercel.app/api/icons?i=instagram)
 
 <br>
 
 ### My GitHub : 
+<div align="center">
+
 ![Wira's GitHub stats](https://github-readme-stats.vercel.app/api?username=Wira-Kusuma&show_icons=true&theme=radical)
+
+</div>
+
+
+
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maurodesouza&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maurodesouza&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+
+###
 
 
 #### FunFact ```Im poor 😥```
