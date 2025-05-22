@@ -4,8 +4,7 @@
 
 </div>
 
-## Nice to meet you!
-##### Im junior Web Development
+
 <!--
 **Wira-Kusuma/Wira-Kusuma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
