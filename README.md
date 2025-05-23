@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 
 ##### 🌱 I’m currently learning :
 
- ![image-skill](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,github)
+ ![image-skill](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,php,github)
 
 <br>
 
@@ -57,4 +57,5 @@ Here are some ideas to get you started:
 ###
 
 
-#### FunFact ```Im broke 😥```
+#### ⚡ FunFact
+ ```Im broke 😥```
