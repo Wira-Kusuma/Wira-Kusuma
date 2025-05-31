@@ -50,6 +50,14 @@ Here are some ideas to get you started:
 
 <br clear="both">
 
+![](https://github-profile-trophy.vercel.app/?username=Wira-Kusuma&theme=onedark)
+
+
+![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=Wira-kusuma)
+
+![](https://github-readme-streak-stats.herokuapp.com/?user=Wira-Kusuma&theme=blue-green&hide_border=false)<br/>
+
+
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/wira-kusuma/wira-kusuma/output/snake.svg" alt="Snake animation" /> Hell noo!!, stop the snake
@@ -59,3 +67,6 @@ Here are some ideas to get you started:
 
 #### ⚡ FunFact
  ```Im broke 😥```
+
+<p align="left" style="display: none;"> <img src="https://komarev.com/ghpvc/?username=Wira-Kusuma&label=Profile%20views&color=0e75b6&style=flat" alt="Wira-Kusuma" /> </p>
+
