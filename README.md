@@ -1,7 +1,6 @@
 <div align="center">
 
-![banner](img/github-header-image%20(1).png)
-
+![banner](img/github-header-image.png)
 </div>
 
 <hr>
