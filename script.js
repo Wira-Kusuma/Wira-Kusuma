@@ -2,13 +2,8 @@ const hamburger = document.querySelector('.hamburger-btn');
 const navMenu = document.querySelector('.nav');
 
 hamburger.addEventListener('click', () => {
-    if (navMenu.classList.contains('nav-open')) {
-        navMenu.classList.remove('nav-open');
-        navMenu.classList.add('nav-close');
-    } else {
-        navMenu.classList.remove('nav-close');
-        navMenu.classList.add('nav-open');
-    }
-
+    
+    navMenu.classList.toggle('active');
+    navMenu.classList.toggle('nav-open');
     hamburger.classList.toggle('active');
 });

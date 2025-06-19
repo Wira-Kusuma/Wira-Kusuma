@@ -101,8 +101,9 @@ nav a:hover::after {
 
 main {
     width: 90%;
-    height: 80vh;
+    height: auto;
     margin: auto;
+    margin-bottom: 100px;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -124,6 +125,27 @@ main img {
     border-radius: 50px;
     border-bottom-right-radius: 0;
     box-shadow: 0.3px 0.3px 10px 1px rgba(0, 0, 0, 0.199);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
+.aboutMeDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -181,5 +203,13 @@ main img {
     main {
         flex-direction: column;
         row-gap: 100px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .aboutMeDesc {
+        width: 100%;
     }
 }
