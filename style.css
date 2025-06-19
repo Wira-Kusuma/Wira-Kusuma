@@ -1,15 +1,27 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    
 }
 
-body,html {
+body, html {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
     scroll-behavior: smooth;
     display: block;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-image: url('https://www.transparenttextures.com/patterns/axiom-pattern.png');
+    animation: gradientMove 45s linear infinite;
 }
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 header {
     display: flex;
@@ -32,6 +44,7 @@ nav a {
     padding: 5px;
     position: relative;
     text-align: center;
+    font-weight: bold;
 }
 
 nav a::after {
@@ -56,7 +69,7 @@ nav a:hover::after {
     width: 110px;
     padding: 10px;
     border: 2px solid #007bff;
-    color: blue;
+    color: #007bff;
     font-weight: bold;
     border-radius: 20px;
     border-bottom-right-radius: 0;
@@ -64,6 +77,7 @@ nav a:hover::after {
     font-size: 1rem;
     transition: ease 0.2s;
     box-shadow: 0.3px 0.3px 10px 1px rgba(17, 0, 255, 0.3);
+    cursor: pointer;
 }
 
 .headBtn:hover {
@@ -98,7 +112,7 @@ main p {
 
 main img {
     width: 300px;
-    border-radius: 20px;
+    border-radius: 50px;
     border-bottom-right-radius: 0;
-    box-shadow: 0.3px 0.3px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0.3px 0.3px 10px 1px rgba(0, 0, 0, 0.199);
 }
