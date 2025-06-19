@@ -2,9 +2,13 @@ const hamburger = document.querySelector('.hamburger-btn');
 const navMenu = document.querySelector('.nav');
 
 hamburger.addEventListener('click', () => {
-    navMenu.classList.remove('nav-animation');
-    void navMenu.offsetWidth; // trigger reflow
-    navMenu.classList.add('nav-animation')
+    if (navMenu.classList.contains('nav-open')) {
+        navMenu.classList.remove('nav-open');
+        navMenu.classList.add('nav-close');
+    } else {
+        navMenu.classList.remove('nav-close');
+        navMenu.classList.add('nav-open');
+    }
+
     hamburger.classList.toggle('active');
-    navMenu.classList.toggle('active');
 });
