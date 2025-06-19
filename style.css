@@ -149,6 +149,13 @@ main img {
     border-radius: 50px;
     border-bottom-right-radius: 0;
     box-shadow: 0.3px 0.3px 10px 1px rgba(0, 0, 0, 0.199);
+    transition: ease-in-out all 0.4s;
+    user-select: none;
+    transform: scale(1.20) rotate(-15deg);
+}
+
+main img:hover {
+    transform: rotate(15deg);
 }
 
 section {
