@@ -30,6 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    user-select: none;
 }
 
 .hamburger-btn {
@@ -83,6 +84,7 @@ nav a:hover::after {
     transition: ease 0.2s;
     box-shadow: 0.3px 0.3px 10px 1px rgba(17, 0, 255, 0.3);
     cursor: pointer;
+    user-select: none;
 }
 
 .headBtn:hover {
