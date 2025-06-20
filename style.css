@@ -20,15 +20,15 @@ body, html {
 }
 
 body.active {
-    transform: rotate(0deg);
+    transform: translateX(0px);
 }
 
 @keyframes rotateIn {
     from {
-        transform: rotate(90deg);
+        transform: translateX(-1000px);
     }
     to {
-        transform: rotate(0deg);
+        transform: translateX(0px);
     }
 }
 
