@@ -14,22 +14,6 @@ body, html {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-image: url('https://www.transparenttextures.com/patterns/axiom-pattern.png');
     animation: gradientMove 45s linear infinite;
-    transform: rotate(90deg);
-    animation: rotateIn 1s ease-out forwards;
-    transform-origin: center center;
-}
-
-body.active {
-    transform: translateX(0px);
-}
-
-@keyframes rotateIn {
-    from {
-        transform: translateX(-1000px);
-    }
-    to {
-        transform: translateX(0px);
-    }
 }
 
 @keyframes gradientMove {
@@ -148,6 +132,16 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    animation: toright 1s ease-out forwards;
+}
+
+@keyframes toright {
+    from {
+        transform: translateX(-1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
 }
 
 main h1 {
@@ -158,6 +152,10 @@ main h1 {
 
 main p {
     font-size:1rem;
+}
+
+main .desc {
+    width: 50%;
 }
 
 main img {
@@ -439,6 +437,10 @@ body::-webkit-scrollbar-thumb:hover {
     main {
         flex-direction: column;
         row-gap: 100px;
+    }
+
+    main .desc {
+        width: 100%;
     }
 
     section {

@@ -1,7 +1,3 @@
-window.onload = function () {
-    document.body.classList.add("active");
-}
-
 const hamburger = document.querySelector('.hamburger-btn');
 const navMenu = document.querySelector('.nav');
 
