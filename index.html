@@ -41,10 +41,10 @@
 <body id="home">
     
     <header>
-        <div class="hamburger-btn">
+        <div class="hamburger-btn fade-in">
             &#8801;		
         </div>
-        <nav class="nav">
+        <nav class="nav fade-in">
             <a href="#aboutMe">About me</a>
             <a href="#skill">Skill</a>
             <a href="#projek">Projects</a>
@@ -67,10 +67,10 @@
         <img src="img/wira.jpg" alt="Portrait of Wira Kusuma Phandawa">
     </main>
 
-    <section id="aboutMe fade-in">
+    <section id="aboutMe" class="fade-in">
         <h2>About me</h2>
 
-        <div class="aboutMeDesc">
+        <div class="aboutMeDesc fade-in">
             <p>
                 Hello! I'm Wira Kusuma, a Frontend Developer with a strong interest in UI/UX.
                 I’ve been building and designing websites for over a year, and I enjoy creating smooth, responsive, and interactive web experiences.
@@ -85,16 +85,16 @@
     <section id="skill" class="fade-in">
         <h2>My Skills</h2>
 
-        <div class="mySkill">
+        <div class="mySkill fade-in">
             <div class="html">
                 <img src="img/html.png" alt="Html">
                 <p>I use HTML5 to create the foundation and structure of every webpage with clean and semantic code.</p>
             </div>
-            <div class="css">
+            <div class="css fade-in">
                 <img src="img/css.png" alt="CSS">
                 <p>With CSS3, I design responsive layouts, animations, and modern UI that work across all devices.</p>
             </div>
-            <div class="js">
+            <div class="js fade-in">
                 <img src="img/js.png" alt="JavaScript">
                 <p>JavaScript helps me bring websites to life — from dynamic content to interactive components.</p>
             </div>
@@ -106,7 +106,7 @@
         <h2>Projects</h2>
 
         <div class="projek">
-            <div class="projekCard">
+            <div class="projekCard fade-in">
                 <img src="img/mie-pansit.png" alt="Mie pansit cence 88">
                 <div class="projekDesc">
                     <h3>Web Restaurant</h3>
@@ -117,7 +117,7 @@
                     </p>
                 </div>
             </div>
-            <div class="projekCard">
+            <div class="projekCard fade-in">
                 <img src="img/cat-adopt.png" alt="Cat adoption">
                 <div class="projekDesc">
                     <h3>Cat adoption</h3>
@@ -128,7 +128,7 @@
                     </p>
                 </div>
             </div>
-            <div class="projekCard">
+            <div class="projekCard fade-in">
                 <img src="img/login-page.png" alt="Login page">
                 <div class="projekDesc">
                     <h3>Login page</h3>
@@ -139,7 +139,7 @@
                     </p>
                 </div>
             </div>
-            <div class="projekCard">
+            <div class="projekCard fade-in">
                 <img src="img/flashcard.png" alt="Flashcard">
                 <div class="projekDesc">
                     <h3>Flashcard</h3>
@@ -157,16 +157,16 @@
 
         <h2>Contact me</h2>
         <div class="contactMe">
-            <div class="contactCard">
+            <div class="contactCard fade-in">
                 <a href="https://github.com/Wira-Kusuma" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
-            <div class="contactCard">
+            <div class="contactCard fade-in">
                 <a href="https://www.facebook.com/wira.kusumaphandawa" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             </div>
-            <div class="contactCard">
+            <div class="contactCard fade-in">
                 <a href="https://www.linkedin.com/in/wira-kusuma-193303354/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="contactCard">
+            <div class="contactCard fade-in">
                 <a href="https://wa.me/628566301399?text=Hello%2C%20I'm%20interested%20in%20your%20services" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
@@ -178,9 +178,18 @@
 
 
     
-    <footer>
-        <p>Wira Kusuma Phandawa © All rights reserved</p>
+    <footer class="footer-nav">
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#aboutMe">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#projek">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>&copy; 2025 Wira Kusuma Phandawa. All rights reserved.</p>
     </footer>
+
+
 
     <script src="script.js"></script>
 </body>

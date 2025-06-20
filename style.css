@@ -355,11 +355,32 @@ section {
     background-color: green;
 }
 
-footer {
-    width: 90%;
-    margin: auto;
-    text-align: center;
+/* footer */
+
+.footer-nav {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
 }
+
+.footer-nav .footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+
 
 /* to get scroll effect */
 .fade-in {
