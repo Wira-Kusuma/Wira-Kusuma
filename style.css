@@ -348,6 +348,33 @@ footer {
     text-align: center;
 }
 
+/* Scrollbar lebar */
+body::-webkit-scrollbar {
+    width: 14px; /* Lebih lebar */
+}
+
+/* Track (jalurnya) */
+body::-webkit-scrollbar-track {
+    background: #e0e0e0; /* Warna jalur */
+    background: linear-gradient(to right, #e0e0e0, #cce4ff);
+}
+
+/* Handle (batang scroll) */
+body::-webkit-scrollbar-thumb {
+    background-color: #555; /* Warna batang */
+    border-radius: 0;       /* Tanpa rounded */
+    border: none;
+    box-shadow: 10px 0 10px 0.5px #007bff8f;
+}
+
+/* Saat hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+    background-color: blue;
+}
+
+
+
 @media (max-width: 768px) {
 
     main h1 {
