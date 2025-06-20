@@ -410,18 +410,10 @@ body::-webkit-scrollbar-thumb:hover {
     .nav-open {
         animation: navOpen 0.3s ease forwards;
     }
-    .nav-close {
-        animation: navClose 0.3s ease forwards;
-    }
 
     @keyframes navOpen {
         from {height: 0px;}
         to {height: 350px;}
-    }
-
-    @keyframes navClose {
-        from { height: 350px; }
-        to { height: 0px; }
     }
 
     nav.active {
