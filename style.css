@@ -15,7 +15,7 @@ body, html {
     background-image: url('https://www.transparenttextures.com/patterns/axiom-pattern.png');
     animation: gradientMove 45s linear infinite;
     transform: rotate(90deg);
-    animation: rotateIn 0.6s ease-out forwards;
+    animation: rotateIn 1s ease-out forwards;
     transform-origin: center center;
 }
 
