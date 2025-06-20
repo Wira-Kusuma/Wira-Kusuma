@@ -231,6 +231,117 @@ section {
     max-width: 40%;
 }
 
+.contactMe {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    gap: 50px;
+    font-size: 50px;
+}
+
+.contactCard a {
+    color: black;
+}
+
+.fa-brands {
+    transition: ease-in-out 0.3s all;
+    cursor: pointer;
+}
+
+.fa-github, .fa-facebook, .fa-linkedin, .fa-whatsapp {
+    position: relative; /* Penting agar ::after bisa posisi absolute */
+    display: inline-block;
+}
+
+.fa-facebook:hover , .fa-linkedin:hover {color: blue;}
+.fa-whatsapp:hover {color: green;}
+
+.fa-github::after {
+    content: "Github";
+    position: absolute;
+    bottom: -30px; /* Muncul di bawah icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.fa-github:hover::after {
+    opacity: 1;
+}
+
+.fa-facebook::after {
+    content: "Facebook";
+    position: absolute;
+    bottom: -30px; /* Muncul di bawah icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.fa-facebook:hover::after {
+    opacity: 1;
+    background-color: blue;
+}
+.fa-linkedin::after {
+    content: "linkedin";
+    position: absolute;
+    bottom: -30px; /* Muncul di bawah icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.fa-linkedin:hover::after {
+    opacity: 1;
+    background-color: blue;
+}
+
+.fa-whatsapp::after {
+    content: "Whatsapp";
+    position: absolute;
+    bottom: -30px; /* Muncul di bawah icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.fa-whatsapp:hover::after {
+    opacity: 1;
+    background-color: green;
+}
+
 footer {
     width: 90%;
     margin: auto;
