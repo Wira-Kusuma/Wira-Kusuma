@@ -418,6 +418,7 @@ body::-webkit-scrollbar-thumb:hover {
         box-shadow: 0 0 10px 0.5px #007bff8f;
         transition: ease-in-out 0.3s;
         overflow: hidden;
+        z-index: 1;
     }
 
     .nav-open {
