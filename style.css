@@ -14,7 +14,6 @@ body, html {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-image: url('https://www.transparenttextures.com/patterns/axiom-pattern.png');
     animation: gradientMove 45s linear infinite;
-    will-change: transform, background-position;
 }
 
 @keyframes gradientMove {
@@ -120,6 +119,7 @@ nav a:hover::after {
     position: fixed;
     right: 50px;
     bottom: 50px;
+    text-decoration: none;
 }
 
 /* end button */
