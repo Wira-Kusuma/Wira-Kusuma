@@ -168,10 +168,7 @@ main img {
     transition: ease-in-out all 0.4s;
     user-select: none;
     transform: scale(1.10) rotate(15deg);
-}
-
-main img:hover {
-    transform: rotate(-15deg) scale(1.20);
+    cursor: pointer;
 }
 
 section {
