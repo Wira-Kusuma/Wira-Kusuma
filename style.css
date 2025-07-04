@@ -185,6 +185,7 @@ section {
     margin: auto;
     font-size: 1.5rem;
     margin-bottom: 100px;
+    gap: 2rem;
 }
 
 .aboutMeDesc {
