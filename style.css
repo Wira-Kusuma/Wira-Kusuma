@@ -1,7 +1,11 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'DM sans';
     box-sizing: border-box;
-    
+    word-spacing: 3px;
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
 
 body, html {
@@ -158,6 +162,7 @@ main p {
 
 main .desc {
     width: 50%;
+    gap: 2rem;
 }
 
 main img {
@@ -190,6 +195,7 @@ section {
     width: 60%;
     text-align: center;
     padding: 10px;
+    gap: 1rem;
 }
 
 .mySkill {
@@ -206,6 +212,11 @@ section {
     width: 25%;
     text-align: center;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .mySkill img {
@@ -216,7 +227,7 @@ section {
 .projek {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -226,22 +237,33 @@ section {
 }
 
 .projek img {
-    width: 40%;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.267);
 }
 
 .projekCard {
     display: flex;
-    gap: 50px;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
-    width: 80%;
+    max-width: 15rem;
+    min-height: 20rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.349);
+    gap: 2rem;
 }
 
-.projeckDesc {
-    max-width: 40%;
+.projekDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projekDesc p{
+    font-size: 0.8rem;
 }
 
 .contactMe {
