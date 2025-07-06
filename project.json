@@ -1,0 +1,37 @@
+[
+    {   
+        "title" : "Web Restaurant",
+        "images" : "img/mie-pansit.png",
+        "tech" : "HTML, CSS, JavaScript",
+        "link" : "https://github.com/Wira-Kusuma/Mie-pansit-cencen-88",
+        "description" : "this website i make because i inspired from my mom restaurant (My first project)"
+    },
+    {   
+        "title" : "Cat adoption website",
+        "images" : "img/cat-adopt.png",
+        "tech" : "HTML, CSS, JavaScript",
+        "link" : "https://github.com/Wira-Kusuma/Cat-adoption",
+        "description" : "This website i make because i love cats"
+    },
+    {   
+        "title" : "Login page",
+        "images" : "img/login-page.png",
+        "tech" : "HTML, CSS, JavaScript",
+        "link" : "https://github.com/Wira-Kusuma/Login-Page",
+        "description" : "i make this website to test and improve my skill features including form validation "
+    },
+    {   
+        "title" : "Flashcard",
+        "images" : "img/flashcard.png",
+        "tech" : "HTML, CSS, JavaScript",
+        "link" : "https://github.com/Wira-Kusuma/Flashcard",
+        "description" : "This website helps me study more efficiently at school. features including user input and editing card "
+    },
+    {   
+        "title" : "Grid bento main",
+        "images" : "img/grid-bento.png",
+        "tech" : "HTML, CSS, JavaScript",
+        "link" : "https://github.com/Wira-Kusuma/bento-grid-main",
+        "description" : "This website i make to show my skill to make dynamic website using grid layout. im add a spawn animation and hover "
+    }
+]

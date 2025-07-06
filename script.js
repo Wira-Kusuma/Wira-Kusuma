@@ -37,7 +37,8 @@ fetch("skill.json")
   .then(data => {
     data.forEach(item => {
       let skillCard = document.createElement("div");
-      skillCard.className="skillCard"
+      skillCard.className="skillCard";
+      skillCard.classList.add="fade-in";
 
       skillCard.innerHTML=`
         <img src="${item.images}" alt="${item.title}">
@@ -47,5 +48,32 @@ fetch("skill.json")
       let mySkill = document.querySelector(".mySkill");
       mySkill.appendChild(skillCard);
 
+    });
+  });
+
+
+// get project from json
+fetch("project.json")
+  .then(res => res.json())
+  .then(data => {
+    data.forEach(item => {
+      let projekCard = document.createElement("div");
+      projekCard.className = "projekCard";
+      projekCard.classList.add = "fade-in";
+
+      projekCard.innerHTML=`
+      <img src="${item.images}" alt="${item.title}">
+      <div class="projekDesc">
+        <h3>${item.title}</h3>
+        <p>${item.tech}</p>
+        <p>
+            ${item.description} 
+            <a href="${item.link}" target="_blank">Source Code (Github)</a>
+        </p>
+      </div>
+      `;
+
+      let projek = document.querySelector(".projek");
+      projek.appendChild(projekCard);
     });
   });
