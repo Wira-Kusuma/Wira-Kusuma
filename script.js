@@ -29,3 +29,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 });
+
+// get skill from json
+
+fetch("skill.json")
+  .then(res => res.json())
+  .then(data => {
+    data.forEach(item => {
+      let skillCard = document.createElement("div");
+      skillCard.className="skillCard"
+
+      skillCard.innerHTML=`
+        <img src="${item.images}" alt="${item.title}">
+        <p>${item.description}</p>
+      `
+
+      let mySkill = document.querySelector(".mySkill");
+      mySkill.appendChild(skillCard);
+
+    });
+  });

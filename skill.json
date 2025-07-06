@@ -1,0 +1,17 @@
+[
+  {
+    "title": "HTML",
+    "images": "img/html.png",
+    "description": "I use HTML5 to create the foundation and structure of every webpage with clean and semantic code."
+  },
+  {
+    "title": "CSS",
+    "images": "img/css.png",
+    "description": "With CSS3, I design responsive layouts, animations, and modern UI that work across all devices."
+  },
+  {
+    "title": "JavaScript",
+    "images": "img/js.png",
+    "description": "JavaScript helps me bring websites to life — from dynamic content to interactive components."
+  }
+]
