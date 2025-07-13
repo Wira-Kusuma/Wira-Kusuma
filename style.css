@@ -461,11 +461,10 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     nav {
-        height: 0px;
-        display: none;
+        display: flex;
         flex-direction: column;
         position:absolute;
-        top: 40px;
+        top: 70px;
         left: 100px;
         background-color: whitesmoke;
         padding: 20px;
@@ -473,22 +472,19 @@ body::-webkit-scrollbar-thumb:hover {
         border-top-left-radius: 0;
         border: 1px solid #007bff8f;
         box-shadow: 0 0 10px 0.5px #007bff8f;
+        /* animation begin here */
         transition: ease-in-out 0.3s;
+        transform: translateY(-20px);
+        opacity: 0;
         overflow: hidden;
+        pointer-events: none;
         z-index: 1;
     }
 
-    .nav-open {
-        animation: navOpen 0.3s ease forwards;
-    }
-
-    @keyframes navOpen {
-        from {height: 0px;}
-        to {height: 350px;}
-    }
-
     nav.active {
-        display: flex;
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: all;
     }
 
     main {

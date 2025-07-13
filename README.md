@@ -4,7 +4,6 @@
 </div>
 
 <hr>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2ed134ef-c153-4824-8c35-ca8028bddad0/deploy-status)](https://app.netlify.com/projects/ubiquitous-medovik-037d7e/deploys)
 
 <h1 align="center">Hi there 👋, I'm Wira Kusuma</h1>
 
