@@ -506,10 +506,6 @@ body::-webkit-scrollbar-thumb:hover {
         width: 100%;
     }
 
-    #skill {
-        width: 100%;
-    }
-
     .mySkill {
         flex-direction: column;
         gap: 50px;
@@ -518,10 +514,6 @@ body::-webkit-scrollbar-thumb:hover {
     
     .skillCard {
         max-width: 90%;
-        width: 100%;
-    }
-
-    .skillCard p {
         width: 100%;
     }
 
