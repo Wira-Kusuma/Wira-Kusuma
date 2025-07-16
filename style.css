@@ -506,13 +506,23 @@ body::-webkit-scrollbar-thumb:hover {
         width: 100%;
     }
 
+    #skill {
+        width: 100%;
+    }
+
     .mySkill {
         flex-direction: column;
         gap: 50px;
+        width: 100%;
     }
     
-    .html, .css, .js {
-        width: 80%;
+    .skillCard {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .skillCard p {
+        width: 100%;
     }
 
     .projekCard {
