@@ -33,5 +33,12 @@
         "tech" : "HTML, CSS, JavaScript",
         "link" : "https://github.com/Wira-Kusuma/bento-grid-main",
         "description" : "This website i make to show my skill to make dynamic website using grid layout. im add a spawn animation and hover "
+    },
+    {   
+        "title" : "Chatbot ai",
+        "images" : "img/chatbot.png",
+        "tech" : "HTML, CSS, JavaScript",
+        "link" : "https://github.com/Wira-Kusuma/chat-bot",
+        "description" : "this website i make to answer question about my self. "
     }
 ]
