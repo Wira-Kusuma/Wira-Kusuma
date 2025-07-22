@@ -48,7 +48,6 @@ Junior Web Developer | Learner | Open to Collaboration 🚀
 
 ## ✨ Fun Facts
 
-```Im broke 😥```
 - I love learning new web technologies!
 - Open to project collaboration and networking.
 - Ask me anything about web development or just say hi!
