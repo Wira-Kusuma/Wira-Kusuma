@@ -6,7 +6,7 @@
 <hr>
 
 <h1 align="center">Hi there 👋, I'm Wira Kusuma</h1>
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=475&lines=Frontend+web+developer+%26+cyber+security)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=475&lines=Frontend+web+developer+%26+cyber+security" alt="Typing SVG" /></a>
 
 ---
 
