@@ -1,12 +1,5 @@
-<div align="center">
-
-![banner](img/github-header-image.png)
-</div>
-
-<hr>
-
-<h1 align="center">Hi there 👋, I'm Wira Kusuma</h1>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=475&lines=Frontend+web+developer+%26+cyber+security" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=475&lines=Hi%2C+Im+Wira+Kusuma+Phandawa" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=475&lines=frontend+dev+%26+cyber+security" alt="Typing SVG" /></a>
 
 ---
 
