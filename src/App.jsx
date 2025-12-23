@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './index.css'
-import { useEffect } from 'react'
 
 export default function App() {
 
