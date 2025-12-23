@@ -65,7 +65,7 @@ function About(){
         <p>I enjoy learning new technologies, improving my problem-solving skills, and paying close attention to UI details to deliver the best user experience. For me, coding is not just about making things work, but about creating efficient and scalable solutions.</p>
       </div>
       <div className="about2">
-        <img src="img/wira-removebg-preview.png" alt="" />
+        <img src="img/wira-removebg-preview.png" alt="portait of wira" />
       </div>
     </section>
   )
