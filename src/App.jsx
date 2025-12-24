@@ -61,7 +61,7 @@ function About(){
       <div className="about1">
         <div>
           <h1>About Me</h1>
-          <p>Hi!, im Wira Kusuma Phandawa, a front-end developer based in indonesia. im focus experiencing in web dev, problem solving, clean code. my main focus is build fast web app, safe, and scalable for you.</p>
+          <p>Hi! I'm Wira Kusuma Phandawa, a front-end developer based in Indonesia. I focus on web development, problem-solving, and writing clean code. My main goal is to build fast, secure, and scalable web applications for you.</p>
         </div>
       </div>
       <div className="about2">
