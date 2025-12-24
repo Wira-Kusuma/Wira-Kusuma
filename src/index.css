@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: white;
+  color:white;
 }
 
 body,
@@ -13,12 +13,19 @@ html {
 
 body {
   width: 100%;
-  background-color: #0f0f23;
-  background-image: 
-  radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 20px 20px;
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+  animation: gradientMove 45s linear infinite;
+  background-attachment: fixed;
   overflow-x: hidden;
 }
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 header {
   width: 100%;
@@ -26,6 +33,8 @@ header {
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
 .burger-menu {
@@ -70,10 +79,15 @@ main {
 }
 
 .main1>div {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 1rem;
+}
+
+.main1>div>h1{
+  font-size: 4rem;
 }
 
 .main1>div>button {
@@ -96,6 +110,11 @@ main {
   height: 100%;
 }
 
+.main2>img{
+  width: 80%;
+  border-radius: 10px;
+}
+
 .about {
   width: 100%;
   height: 100vh;
@@ -108,13 +127,37 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
-  gap: 1rem;
+  align-items: center;
+}
+
+.about1>div{
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  width: 60%;
 }
 
 .about2 {
   width: 40%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about2>img {
+  height: 50%;
+  height: 50%;
+  animation: rotate 15s infinite;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width:700px) {
@@ -123,7 +166,7 @@ main {
   }
 
   header {
-    position: relative;
+    position:sticky ;
   }
 
   nav {
@@ -153,8 +196,10 @@ main {
   }
 
   main {
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    row-gap: 2rem;
   }
 
   .main1 {
@@ -172,24 +217,43 @@ main {
     align-items: center;
   }
 
+
   .main2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main2>img{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+  }
+
+  .about {
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .about1 {
     width: 100%;
     height: 40%;
   }
 
-  .about {
-    display: flex;
-    flex-direction: column;
+  .about1>div{
     width: 100%;
-  }
-
-  .about1 {
-    padding: 1rem;
-    gap: 2rem;
-    width: 100%;
+    padding: 2rem;
+    text-align: center;
   }
 
   .about2 {
+    height: 60%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -197,6 +261,6 @@ main {
   }
 
   .about2>img {
-    width: 20rem;
+    width: 50%;
   }
 }
