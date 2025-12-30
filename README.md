@@ -7,7 +7,7 @@
 
 ## 🌱 Currently Learning
 
-![image-skill](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,php,github)
+![image-skill](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,react,vite,npm,pnpm)
 <br/>
 
 ## 📫 How to Reach Me
