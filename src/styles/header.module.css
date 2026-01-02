@@ -1,6 +1,5 @@
 .header{
     width: 100%;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +14,7 @@
 
 .nav>ul{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav>ul>li>a {

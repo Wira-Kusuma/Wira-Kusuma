@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "../styles/globals.css";
 import header from "../styles/header.module.css";
+import main from "../styles/main.module.css";
 
 export function Header() {
     const [open, setOpen] = useState(false);
@@ -31,4 +32,12 @@ export function Header() {
       </nav>
     </header>
   );
+}
+
+export function Main(){
+  return(
+    <main className={main.main}>
+      
+    </main>
+  )
 }
