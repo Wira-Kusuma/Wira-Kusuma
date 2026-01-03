@@ -1,15 +1,26 @@
 <div align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=475&lines=Hi%2C+Im+Wira+Kusuma+Phandawa" alt="Typing SVG"/></a>
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=475&lines=frontend+dev+%26+cyber+security" alt="Typing SVG"/></a>
 </div>
 
----
+<hr>
 
-## 🌱 Currently Learning
+<h2> Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
-![image-skill](https://go-skill-icons.vercel.app/api/icons?i=html,css,js,typescript,react,next,vite,npm,pnpm)
+#### 👨‍💻 Frontend Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" /> <img src="https://img.shields.io/badge/pnpm-yellow?style=for-the-badge&logo=pnpm&logoColor=white" /> <br/>
+#### 🧠 Backend Development
+progressing
+#### 🗄️ Databases
+progressing
+#### ⚙️ Tools & Other Tech
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<br/>
 
 ## 📫 How to Reach Me
 
@@ -29,21 +40,13 @@
 <br/>
 <img src="https://github-profile-trophy.vercel.app/?username=Wira-Kusuma&theme=onedark" alt="trophy" />
 <br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Wira-Kusuma&theme=blue-green&hide_border=false"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Wira-Kusuma&theme=blue-green&hide_border=false" alt="steaks"/>
 <br/>
 <img src="https://github-contributor-stats.vercel.app/api?username=Wira-Kusuma" alt="contributor stats" />
 <br/>
 <img src="https://raw.githubusercontent.com/wira-kusuma/wira-kusuma/output/snake.svg" alt="Snake animation" />
 
 </div>
-
----
-
-## ✨ Fun Facts
-
-- I love learning new web technologies!
-- Open to project collaboration and networking.
-- Ask me anything about web development or just say hi!
 
 ---
 
