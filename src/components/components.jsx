@@ -14,7 +14,7 @@ export function Header() {
       className={header.burgerMenu} 
       onClick={()=>setOpen(!open)}
       >
-        &#x2630;
+        {open ? "✕" : "☰"}
       </div>
 
       <nav className={`${header.nav} ${open ? header.show : ""}`}>
