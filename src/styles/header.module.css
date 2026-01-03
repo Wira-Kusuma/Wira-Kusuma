@@ -43,9 +43,11 @@
         position: fixed;
         top: 100px;
         right: 30px;
-        width: 5rem;
-        border: 1px solid;
-        padding: 1rem;
+        width: fit-content;
+        box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.226);
+        background-color: whitesmoke;
+        padding: 2rem;
+        border-radius: 10px 0 10px 10px;
         opacity: 0;
         transition: ease-in-out 0.2s;
         transform: translateX(100%);

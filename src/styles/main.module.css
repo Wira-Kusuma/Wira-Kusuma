@@ -81,8 +81,7 @@
 
     .main > div:first-child {
         width: 100%;
-        height: 50vh;
-        padding: 2rem 0;
+        height: 60vh;
     }
 
     .main > div:first-child > div {
@@ -91,7 +90,7 @@
     }
 
     .main > div:first-child > div > h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .main > div:first-child > div > p:first-child {
@@ -100,7 +99,7 @@
 
     .main > div:last-child {
         width: 100%;
-        height: 50vh;
+        height: fit-content;
     }
 
     .main > div:last-child > img {
