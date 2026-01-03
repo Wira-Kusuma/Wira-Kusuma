@@ -3,6 +3,7 @@ import { useState } from "react";
 import "../styles/globals.css";
 import header from "../styles/header.module.css";
 import main from "../styles/main.module.css";
+import about from "../styles/about.module.css";
 
 export function Header() {
     const [open, setOpen] = useState(false);
@@ -52,5 +53,13 @@ export function Main(){
         </div>
       </div>
     </main>
+  )
+}
+
+export function About(){
+  return(
+    <section className={about.about}>
+
+    </section>
   )
 }

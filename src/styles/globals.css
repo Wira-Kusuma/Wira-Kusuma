@@ -26,3 +26,34 @@ body{
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0s !important;
+    transition: none !important;
+  }
+}
+
+body::-webkit-scrollbar {
+    width: 8px; 
+}
+
+/* Track (jalurnya) */
+body::-webkit-scrollbar-track {
+    background: #e0e0e0; 
+    background: linear-gradient(to right, #e0e0e0, #cce4ff);
+}
+
+/* Handle (batang scroll) */
+body::-webkit-scrollbar-thumb {
+    background-color: #555; 
+    border-radius: 0;       
+    border: none;
+    box-shadow: 10px 0 10px 0.5px #000000;
+}
+
+/* Saat hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5);
+}

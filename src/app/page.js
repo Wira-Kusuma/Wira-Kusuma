@@ -1,11 +1,12 @@
 import "../styles/globals.css"
-import { Header, Main } from "../components/components";
+import { Header, Main, About } from "../components/components";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Main />
+      <About />
     </>
   );
 }

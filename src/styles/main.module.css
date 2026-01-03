@@ -8,7 +8,6 @@
 .main>div:first-child{
     width: 60%;
     height: 100%;
-    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +34,6 @@
 
 .main>div:last-child{
     width: 40%;
-    border: 1px solid;
     height: 100%;
     display: flex;
     justify-content: center;
