@@ -37,7 +37,20 @@ export function Header() {
 export function Main(){
   return(
     <main className={main.main}>
-      
+      <div>
+        <div>
+          <p>Hello I'M A</p>
+          <h2>Frontend Developer</h2>
+          <p>Hi i'm Wira passionate frontend developer based in Indonesia, Welcome to my portofolio</p>
+        </div>
+      </div>
+      <div>
+        <img src="wira.jpg" alt="Portait of wira kusuma phandawa" />
+        <div className={main.info}>
+          <p>Wira Kusuma Phandawa</p>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
     </main>
   )
 }
