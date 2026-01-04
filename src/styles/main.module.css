@@ -11,6 +11,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: left linear;
+    animation-timeline: scroll();
+}
+
+@keyframes left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0.8;
+  }
 }
 
 .main>div:first-child>div{
@@ -39,6 +51,18 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    animation: right linear;
+    animation-timeline: scroll(); /* Mengikuti scroll global */
+}
+
+@keyframes right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translatex(100%);
+    opacity: 0.8;
+  }
 }
 
 .main>div:last-child>img{
@@ -109,7 +133,10 @@
     .info {
         width: 90%;
         bottom: 1.5rem;
+
+        
     }
+
 }
 
 @media (max-width: 480px) {

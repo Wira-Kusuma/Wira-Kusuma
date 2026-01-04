@@ -8,6 +8,18 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    animation: header linear 0.1s;
+    animation-timeline: scroll();
+}
+
+@keyframes header {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #d4d4d4;
+    box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.247);
+  }
 }
 
 .nav {
