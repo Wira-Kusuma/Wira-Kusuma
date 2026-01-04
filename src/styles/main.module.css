@@ -51,11 +51,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: right linear;
+    animation: down linear;
     animation-timeline: scroll(); /* Mengikuti scroll global */
 }
 
-@keyframes right {
+@keyframes down {
   from {
     transform: translateY(0);
   }
@@ -89,9 +89,11 @@
 .info>p:first-child{
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: center;
 }
 .info>p:last-child{
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 /* Responsive Design */
@@ -123,6 +125,17 @@
     .main > div:last-child {
         width: 100%;
         height: fit-content;
+        animation: right linear;
+        animation-timeline: scroll();
+    }
+
+    @keyframes right {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(100%);
+        }
     }
 
     .main > div:last-child > img {
@@ -132,22 +145,6 @@
     .info {
         width: 90%;
         bottom: 1.5rem;
-
-        
     }
 
-}
-
-@media (max-width: 480px) {
-    .main > div:first-child > div > h2 {
-        font-size: 1.5rem;
-    }
-
-    .main > div:first-child > div > p:first-child {
-        font-size: 1rem;
-    }
-
-    .info > p:first-child {
-        font-size: 1.2rem;
-    }
 }
