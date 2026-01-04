@@ -36,6 +36,12 @@ background-image: url("https://www.transparenttextures.com/patterns/crissxcross.
   }
 }
 
+@media screen and (max-width:700px) {
+  body,html{
+    overflow-x: hidden;
+  }
+}
+
 
 /* prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {

@@ -59,7 +59,22 @@ export function Main(){
 export function About(){
   return(
     <section className={about.about}>
-
+      <div className={about.container}>
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate frontend developer with expertise in creating responsive and user-friendly web applications. I love turning ideas into interactive digital experiences.
+        </p>
+        <div className={about.details}>
+          <div>
+            <h3>Experience</h3>
+            <p>{new Date().getFullYear() - 2025 } years of frontend development</p>
+          </div>
+          <div>
+            <h3>Location</h3>
+            <p>Indonesia</p>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

@@ -17,10 +17,10 @@
 
 @keyframes left {
   from {
-    transform: translateX(0) rotate(0);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(-100%) rotate(-160deg);
+    transform: translateX(-100%);
     opacity: 0;
   }
 }
@@ -57,10 +57,10 @@
 
 @keyframes right {
   from {
-    transform: translateX(0) rotate(0);
+    transform: translateX(0);
   }
   to {
-    transform: translatex(100%) rotate(160deg);
+    transform: translatex(100%);
     opacity: 0;
   }
 }
