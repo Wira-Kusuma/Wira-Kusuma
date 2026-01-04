@@ -12,7 +12,7 @@ export const metadata = {
     title: "Wira Kusuma | Frontend Developer Portfolio",
     description: "Explore my frontend development portfolio featuring React, JavaScript, and modern web projects.",
     type: "website",
-    url: "https://wira-kusuma.github.io/Wira-Kusuma/",
+    url: "https://wira-kusuma.vercel.app/",
     siteName: "Wira Kusuma Portfolio",
     images:"https://github.com/Wira-Kusuma/Wira-Kusuma/blob/main/public/wira.jpg",
   },
