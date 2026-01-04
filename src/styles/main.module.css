@@ -52,7 +52,7 @@
     align-items: center;
     position: relative;
     animation: down linear;
-    animation-timeline: scroll(); /* Mengikuti scroll global */
+    animation-timeline: scroll();
 }
 
 @keyframes down {
