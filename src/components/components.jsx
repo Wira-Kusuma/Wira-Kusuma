@@ -39,7 +39,7 @@ export function Header() {
 
 export function Main(){
   return(
-    <main className={main.main} id="main">
+    <main className={main.main}>
       <div>
           <p>Hello, I'm a</p>
           <h2>Frontend Developer</h2>
