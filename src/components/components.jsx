@@ -59,7 +59,7 @@ export function Main(){
 export function About(){
   return(
     <section className={about.about}>
-      <div className={about.container}>
+      <div className={about.container1}>
         <h2>About Me</h2>
         <p>
           I'm a passionate frontend developer with expertise in creating responsive and user-friendly web applications. I love turning ideas into interactive digital experiences.
@@ -75,6 +75,8 @@ export function About(){
           </div>
         </div>
       </div>
+
+      <div className={about.container2}></div>
     </section>
   )
 }
