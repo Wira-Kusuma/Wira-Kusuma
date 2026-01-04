@@ -21,7 +21,7 @@
   }
   to {
     transform: translateX(-100%) rotate(-160deg);
-    opacity: 0.8;
+    opacity: 0;
   }
 }
 
@@ -61,7 +61,7 @@
   }
   to {
     transform: translatex(100%) rotate(160deg);
-    opacity: 0.8;
+    opacity: 0;
   }
 }
 
