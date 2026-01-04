@@ -6,11 +6,10 @@ export const metadata = {
   keywords: ["frontend developer", "React developer", "JavaScript", "web development", "portfolio", "Wira Kusuma"],
   authors: [{ name: "Wira Kusuma" }],
   creator: "Wira Kusuma",
-  // viewport: "width=device-width, initial-scale=1", // This line is removed from here
   robots: "index, follow",
   openGraph: {
     title: "Wira Kusuma | Frontend Developer Portfolio",
-    description: "Explore my frontend development portfolio featuring React, JavaScript, and modern web projects.",
+    description: "Frontend Developer dedicated to building responsive, high-performance, and user-centric web applications using modern frameworks like React, Next.js, and TypeScript.",
     type: "website",
     url: "https://wira-kusuma.vercel.app/",
     siteName: "Wira Kusuma Portfolio",
