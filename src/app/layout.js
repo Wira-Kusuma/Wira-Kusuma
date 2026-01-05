@@ -33,7 +33,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* The viewport meta tag is now automatically managed by Next.js */}
         <meta charSet="utf-8" />
       </head>
       <body id="main">
