@@ -13,8 +13,6 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0 10rem;
-    animation: left linear;
-    animation-timeline: scroll();
 }
 
 .main > div:first-child > p, 
@@ -61,17 +59,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: down linear;
-    animation-timeline: scroll();
-}
-
-@keyframes down {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(110%);
-  }
 }
 
 .main>div:last-child>img{
@@ -123,17 +110,6 @@
     .main > div:last-child {
         width: 100%;
         height: fit-content;
-        animation: right linear;
-        animation-timeline: scroll();
-    }
-
-    @keyframes right {
-        from{
-            transform: translateX(0);
-        }
-        to{
-            transform: translateX(100%);
-        }
     }
 
     .main > div:last-child > img {

@@ -15,7 +15,7 @@ body,html{
 }
 
 body {
-  background-color: #d4d4d4;
+  background-color: #c7c7c7;
 background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   animation: gradientMove 45s linear infinite;
@@ -38,6 +38,7 @@ background-image: url("https://www.transparenttextures.com/patterns/crissxcross.
 
 img{
   user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* prefer reduced motion */
