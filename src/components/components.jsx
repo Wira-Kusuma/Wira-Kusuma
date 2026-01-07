@@ -136,7 +136,7 @@ export function Skills() {
   const [clicked, setClicked] = useState("Html")
 
   return (
-    <section className={skills.skills} id="skill">
+    <section className={skills.skills} id="skills">
       <div className={skills.showing}>
         <h2>Tech Stack / Skills</h2>
           <div className={skills.cardWrap}>
