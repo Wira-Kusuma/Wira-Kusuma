@@ -133,15 +133,26 @@ export function Skills() {
     },
   ];
 
+  const [clicked, setClicked] = useState("Html")
+
   return (
     <section className={skills.skills} id="skill">
       <div className={skills.showing}>
         <h2>Tech Stack / Skills</h2>
+          <div className={skills.cardWrap}>
+            {techStack.map((data) => (
+              <div className={skills.cards} key={data.lang} style={data.lang === clicked ? {display:'flex'} : {display:'none'}}>
+                <img src={data.img} alt={data.lang} />
+                <h3>{data.lang}</h3>
+                <p>{data.progress}</p>
+              </div>
+            ))}
+          </div>
       </div>
 
       <div className={skills.cardWrap}>
         {techStack.map((data) => (
-          <div className={skills.cards}>
+          <div className={skills.cards} key={data.lang} onMouseEnter={()=>setClicked(data.lang)}>
             <img src={data.img} alt={data.lang} />
             <h3>{data.lang}</h3>
             <p>{data.progress}</p>
