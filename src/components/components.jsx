@@ -141,10 +141,13 @@ export function Skills() {
         <h2>Tech Stack / Skills</h2>
           <div className={skills.cardWrap}>
             {techStack.map((data) => (
-              <div className={skills.cards} key={data.lang} style={data.lang === clicked ? {display:'flex'} : {display:'none'}}>
+              <div 
+              className={skills.cards} 
+              key={data.lang} 
+              style={data.lang === clicked ? {display:'flex'} : {display:'none'}}>
                 <img src={data.img} alt={data.lang} />
-                <h3>{data.lang}</h3>
-                <p>{data.progress}</p>
+                <p>name : {data.lang}</p>
+                <p></p>
               </div>
             ))}
           </div>
@@ -152,7 +155,11 @@ export function Skills() {
 
       <div className={skills.cardWrap}>
         {techStack.map((data) => (
-          <div className={skills.cards} key={data.lang} onMouseEnter={()=>setClicked(data.lang)}>
+          <div 
+          className={skills.cards} 
+          key={data.lang} 
+          onClick={()=>setClicked(data.lang)}
+          >
             <img src={data.img} alt={data.lang} />
             <h3>{data.lang}</h3>
             <p>{data.progress}</p>
