@@ -4,6 +4,10 @@
     display: flex;
 }
 
+.skills>h2{
+    display: none;
+}
+
 .cardWrap {
     width: 60%;
     height: 100%;
@@ -28,10 +32,9 @@
 
 .cards:hover {
     transform: scale(1.1);
-    background-color: rgba(255, 255, 255, 0.301);
     border-radius: 10px;
     box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.205);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
 }
 .cards:active {
     transform: none;
@@ -81,7 +84,6 @@
 .showing>.cardWrap>.cards{
     display: none;
     cursor: auto;
-    background-color: rgba(255, 255, 255, 0.300);
     box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.200);
     border-radius: 5px;
     backdrop-filter: blur(5px);
@@ -100,17 +102,24 @@
     .skills {
         display: flex;
         flex-direction: column-reverse;
-        gap: 4rem;
+    }
+
+    .skills>h2 {
+        font-size: 2rem;
+        text-align: center;
     }
 
     .cardWrap {
         width: 100%;
-        min-height: 20rem;
+        padding: 1rem;
+        height: fit-content;
         overflow-x: scroll;
         overflow-y: hidden;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .showing {
@@ -119,4 +128,7 @@
         text-align: center;
     }
 
+    .showing>h2{
+        display: none;
+    }
 }

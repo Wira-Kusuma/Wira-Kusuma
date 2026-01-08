@@ -4,8 +4,8 @@ export const metadata = {
   title: "Wira Kusuma | Frontend Developer Portfolio",
   description: "Explore my frontend development portfolio featuring React, JavaScript, and modern web projects. Hire an experienced frontend developer.",
   keywords: ["frontend developer", "React developer", "JavaScript", "web development", "portfolio", "Wira Kusuma"],
-  authors: [{ name: "Wira Kusuma" }],
-  creator: "Wira Kusuma",
+  authors: [{ name: "Wira Kusuma Phandawa" }],
+  creator: "Wira Kusuma Phandawa",
   robots: "index, follow",
   openGraph: {
     title: "Wira Kusuma | Frontend Developer Portfolio",
